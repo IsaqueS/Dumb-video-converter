@@ -70,6 +70,7 @@ def convert_videos(settings: Settings) -> None:
             print(f"✅ Successfully converted {video}")
 
             if remove_on_finish:
+                print("Input file removed...")
                 os.remove(input_path)
 
         except FileNotFoundError:
