@@ -1,0 +1,6 @@
+[path]
+source="Videos a converter"
+output="Videos convertidos"
+remove-on-finish=true
+[video]
+resolution=540
